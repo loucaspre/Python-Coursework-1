@@ -230,8 +230,6 @@ print ("My starting annual salary is","£", annual_salary) #Printing a sentence 
 salary_saved = float (input (0.1)) #Asking the user for input of my saved salary 
 print ("The portion of my salary saved is", salary_saved) #Printing a sentence that states my annual salary.
 
-
-
 months = 0
 # Want to exit the loop when there is enough savings for a down payment
 while savings < down_payment:
