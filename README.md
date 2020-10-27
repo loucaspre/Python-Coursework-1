@@ -12,7 +12,8 @@ e. The remainder when x is divided by y
 f. The result of log10 x
 g. The result of x y
 
-'''
+```
 #EXERCISE I
 #1. Asks the user to enter a number “x” 
 x = int (input ("10"))
+```
