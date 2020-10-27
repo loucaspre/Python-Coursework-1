@@ -159,14 +159,21 @@ are better off buying a house rather than renting a flat, so you want to start s
 very high in Zone 1 and 2, you realize you are going to have to save first for some time before you make the down
 payment on a house. To figure out how long will it take you to save enough money for the down payment, as a software
 developer, your first instinct should be to write a general python program that takes into account:
+
 1. The cost of your ideal house. (basic)
+
 2. The cost needed for a down payment. (basic)
+
 3. Your annual salary. (basic)
+
 4. The portion of your salary that you will save (intermediate)
+
 5. The amount of money that you have already saved. (intermediate)
+
 6. That you are able to invest your savings. Having an annual return of r means that at the end of each month, you
 receive an additional (r/12) times your saved money (r is divided by 12; the 12 is because r is an annual rate).
 (advanced)
+
 Write a program that ask the user for input on:
 a) The cost of your future home
 b) The starting annual salary
@@ -174,13 +181,19 @@ c) The portion of salary to be saved
 and calculates how many months it will take you to save up enough money for a down payment with the following
 assumptions:
 i. That you start savings of £0.00.
+
 ii. The down payment is 25% of the house’s value.
+
 iii. That you will save up to 10% of your salary each month.
+
 iv. That your investments earn a return of r = 0.04 (4%), so at the end of each month, your savings will be increased
 by the return on your investment, plus a percentage of your monthly salary.
+
 Tip 1: You will want your main variables to be floats, so you should cast user inputs to floats.
+
 Tip 2: You should decide what information you need. Be careful about values that represent annual amounts and those
 that represent monthly amounts.
+
 Tip 3: you can assume that users will enter valid input (e.g. they won’t enter a string when you expect an int) but
 successfully handling invalid input will get you higher marks.
 ```python
